@@ -1,6 +1,4 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import { render } from 'react-dom'
+import App from './components/App'
 
-const message = 'React with Webpack and Babel'
-
-ReactDOM.render(<div>{message}</div>, document.getElementById('root'))
+render(<App />, document.getElementById('root'))
