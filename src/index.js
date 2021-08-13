@@ -1,9 +1,6 @@
-import add from './add'
-import './style.scss'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-const btn = document.querySelector('button')
-btn.addEventListener('click', () => console.log('click'))
+const message = 'React with Webpack and Babel'
 
-console.log(add(8, 21))
-
-document.querySelector('.text').innerHTML = 'JS works properly?'
+ReactDOM.render(<div>{message}</div>, document.getElementById('root'))
