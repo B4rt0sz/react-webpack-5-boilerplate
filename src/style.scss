@@ -1,11 +1,9 @@
 h1 {
   color: blue;
-
-  &:hover {
-    color: orange;
-  }
 }
 
 .text {
+  display: flex;
+  flex-direction: column;
   font-size: 36px;
 }
