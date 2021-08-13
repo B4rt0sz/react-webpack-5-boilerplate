@@ -1,0 +1,11 @@
+{
+  "name": "react-webpack-5-boilerplate",
+  "version": "0.0.1",
+  "description": "Webpack 5 boilerplate with ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bartosz Szućko",
+  "license": "MIT"
+}
