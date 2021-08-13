@@ -1,0 +1,11 @@
+h1 {
+  color: blue;
+
+  &:hover {
+    color: orange;
+  }
+}
+
+.text {
+  font-size: 36px;
+}
