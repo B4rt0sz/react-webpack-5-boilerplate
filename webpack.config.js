@@ -24,6 +24,10 @@ module.exports = {
         test: /\.(s[ac]|c)ss$/i,
         use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
       },
+      {
+        test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
+        type: 'asset/inline',
+      },
     ],
   },
   resolve: {
