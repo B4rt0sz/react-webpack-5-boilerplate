@@ -1,4 +1,5 @@
 import add from './add'
+import './style.css'
 
 const btn = document.querySelector('button')
 btn.addEventListener('click', () => console.log('click'))
