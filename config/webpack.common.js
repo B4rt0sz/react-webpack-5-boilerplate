@@ -1,5 +1,4 @@
 const path = require('path')
-const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
@@ -8,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, '..', './dist'),
     filename: '[name].[contenthash:6].js',
+    clean: true,
   },
 
   module: {
@@ -33,7 +33,6 @@ module.exports = {
   },
 
   plugins: [
-    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'Webpack5 Boilerplate',
       template: path.resolve(__dirname, '..', './src/template/template.html'),
