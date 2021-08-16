@@ -21,7 +21,7 @@ Use the green Template Button on top right of this repository.
 #### Remember:
 
 ```
-add .env.development and .env.production to your .gitignore
+add .env.development and .env.production to your .gitignore!
 ```
 
 ## Usage
@@ -32,8 +32,7 @@ add .env.development and .env.production to your .gitignore
 npm start
 ```
 
-You can view the development server at `localhost:8080`.
-(You can change port in ./config/webpack.dev.js)
+You can view the development server at `localhost:8080` (You can change port in ./config/webpack.dev.js).
 
 ### Production build
 
@@ -55,7 +54,7 @@ npm run build
 
 ### webpack
 
-- [`webpack`](https://github.com/webpack/webpack) - Module and asset bundler.
+- [`webpack`](https://github.com/webpack/webpack) - Module and asset bundler
 - [`webpack-cli`](https://github.com/webpack/webpack-cli) - Command line interface for webpack
 - [`webpack-dev-server`](https://github.com/webpack/webpack-dev-server) - Development server for webpack
 - [`webpack-merge`](https://github.com/survivejs/webpack-merge) - Simplify development/production configuration

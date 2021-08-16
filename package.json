@@ -1,6 +1,6 @@
 {
   "name": "react-webpack-5-boilerplate",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "Webpack 5 boilerplate with React 17 using Babel, HMR, Sass and PostCSS with a hot dev server and an optimized production build.",
   "author": "Bartosz Szućko",
   "license": "MIT",
@@ -15,8 +15,7 @@
   ],
   "scripts": {
     "start": "webpack serve --config config/webpack.config.js --env env=dev",
-    "build": "webpack --config config/webpack.config.js --env env=prod",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config config/webpack.config.js --env env=prod"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
