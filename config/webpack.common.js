@@ -8,6 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, '..', './dist'),
     filename: '[name].[contenthash:6].js',
     clean: true,
+    publicPath: '/',
   },
 
   module: {
@@ -18,7 +19,7 @@ module.exports = {
         use: ['babel-loader'],
       },
       {
-        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+        test: /\.(?:ico|gif|png|jpg|jpeg|mp4)$/i,
         type: 'asset/resource',
       },
       {
