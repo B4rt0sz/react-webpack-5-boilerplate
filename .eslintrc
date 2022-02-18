@@ -5,12 +5,7 @@
     "es6": true
   },
   "parser": "@babel/eslint-parser",
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "prettier",
-    "prettier/react"
-  ],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
   "parserOptions": {
     "ecmaVersion": "latest",
     "ecmaFeatures": {
@@ -18,7 +13,7 @@
     },
     "sourceType": "module"
   },
-  "plugins": ["@babel", "import", "react", "react-hooks", "prettier"],
+  "plugins": ["babel", "import", "react", "react-hooks", "prettier"],
   "rules": {
     "no-var": "error",
     "array-callback-return": "error",
