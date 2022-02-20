@@ -9,7 +9,7 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     static: {
-      directory: path.resolve(__dirname, '..', './dist'),
+      directory: path.resolve(__dirname, '..', 'public'),
     },
     open: true,
     hot: true,
