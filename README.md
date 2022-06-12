@@ -1,14 +1,14 @@
-# :page_facing_up: React Webpack 5 Boilerplate
+# :page_facing_up: React Webpack 5 Template
 
-Webpack 5 boilerplate with React 17 using Babel, HMR, Sass and PostCSS with a hot dev server and an optimized production build.
+:scroll: Webpack 5 template with React 18 using Babel, HMR, Sass and PostCSS with a hot dev server and an optimized production build.
 
 ## Installation
 
 Clone this repository and npm install:
 
 ```
-git clone https://github.com/B4rt0sz/react-webpack-5-boilerplate.git
-cd react-webpack-5-boilerplate
+git clone https://github.com/B4rt0sz/react-webpack-5-template.git
+cd react-webpack-5-template
 npm install
 ```
 
@@ -43,7 +43,7 @@ npm run build
 ## Features
 
 - [Webpack 5](https://webpack.js.org/)
-- [React 17](https://reactjs.org/)
+- [React 18](https://reactjs.org/)
 - [Babel 7](https://babeljs.io/)
 - [Sass](https://sass-lang.com/)
 - [PostCSS](https://postcss.org/)
