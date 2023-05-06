@@ -58,6 +58,10 @@ npm run build
 - [`react-dom`](https://www.npmjs.com/package/react-dom) - This package serves as the entry point to the DOM and server renderers for React
 - [`react-router-dom`](https://www.npmjs.com/package/react-router-dom) - This package serves as DOM for React Router
 
+### Babel
+
+- [`@babel-runtime`](https://babeljs.io/docs/babel-runtime) - Contains Babel modular runtime helpers
+
 ## devDependencies
 
 ### webpack

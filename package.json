@@ -1,6 +1,6 @@
 {
   "name": "react-webpack-5-template",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Webpack 5 template with React 18 using Babel 7, HMR, Sass and PostCSS with a hot dev server and an optimized production build.",
   "author": "Bartosz Szućko",
   "license": "MIT",
@@ -57,6 +57,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "@babel/runtime": "^7.21.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.1"
