@@ -1,6 +1,6 @@
 # :page_facing_up: React Webpack 5 Template
 
-:scroll: Webpack 5 template with React 18 using Babel, HMR, Sass and PostCSS with a hot dev server and an optimized production build.
+:scroll: Webpack 5 template with React 18 using Babel 7, HMR, Sass and PostCSS with a hot dev server and an optimized production build.
 
 ## Installation
 
@@ -52,6 +52,14 @@ npm run build
 
 ## Dependencies
 
+### React
+
+- [`react`](https://www.npmjs.com/package/react) - React is a JavaScript library for creating user interfaces. For creating React components
+- [`react-dom`](https://www.npmjs.com/package/react-dom) - This package serves as the entry point to the DOM and server renderers for React
+- [`react-router-dom`](https://www.npmjs.com/package/react-router-dom) - This package serves as DOM for React Router
+
+## devDependencies
+
 ### webpack
 
 - [`webpack`](https://github.com/webpack/webpack) - Module and asset bundler
@@ -98,6 +106,10 @@ npm run build
 - [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react) - React specific linting rules for ESLint
 - [`eslint-plugin-react-hooks`](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) - ESLint plugin enforces the Rules of Hooks
 - [`prettier`](https://github.com/prettier/prettier) - Prettier is an opinionated code formatter
+
+## Author
+
+Bartosz Szućko
 
 ## License
 
