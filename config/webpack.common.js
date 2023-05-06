@@ -1,5 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin')
 
 module.exports = {
   entry: path.resolve(__dirname, '..', './src/index.js'),
@@ -34,4 +35,28 @@ module.exports = {
       filename: 'index.html',
     }),
   ],
+
+  optimization: {
+    minimizer: [
+      '...',
+      new ImageMinimizerPlugin({
+        minimizer: {
+          implementation: ImageMinimizerPlugin.sharpMinify,
+        },
+        generator: [
+          {
+            preset: 'webp',
+            implementation: ImageMinimizerPlugin.sharpGenerate,
+            options: {
+              encodeOptions: {
+                webp: {
+                  quality: 90,
+                },
+              },
+            },
+          },
+        ],
+      }),
+    ],
+  },
 }

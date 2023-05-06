@@ -93,6 +93,7 @@ npm run build
 - [`@pmmmwh/react-refresh-webpack-plugin`](https://github.com/pmmmwh/react-refresh-webpack-plugin) - Dependency for `react-refresh-webpack-plugin` plugin
 - [`copy-webpack-plugin`](https://github.com/webpack-contrib/copy-webpack-plugin) - Copies individual files or entire directories, which already exist, to the build directory
 - [`dotenv-webpack`](https://github.com/mrsteele/dotenv-webpack) - Supports dotenv and other environment variables
+- [`image-minimizer-webpack-plugin`](https://github.com/webpack-contrib/image-minimizer-webpack-plugin) - Plugin and Loader to optimize (webp 90%) all images using [`sharp`](https://github.com/lovell/sharp)
 
 ### Linters
 
